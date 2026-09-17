@@ -97,7 +97,7 @@ int d = 40;
 
 !(a == b) // true
 
-(a > b) && (c > d)
+(a > b) && (c > d) // false
 
 bool q = a && b;
 
@@ -110,6 +110,8 @@ false false false
 
 (a > b) || (c > d)
 
+bool q = a || b;
+
 a    b      a||b
 true  true  true
 true  false true
@@ -117,5 +119,28 @@ false true  true
 false false false
 
 bool q1 = a || b;
+
+bool x = true;
+bool y = !x; // y - false
+
+int a = 10; int b = 20;
+bool x = a > b; // x - false;
+bool y = !(a > b); // y - true;
+
+
+
++=
+-=
+*=
+/=
+%=
+
+int x = 10;
+x = x + 100; //110
+x += 100; //210 x = x + 100
+x -= 100; //110 x = x - 100
+x *= 100; //11000 x = x * 100
+
+
 
 */
