@@ -1,9 +1,10 @@
 ﻿#include <iostream>
 using namespace std;
-
+// Решение уравнения вида ax^2+bx+c=0
 int main()
 {
-    double a, b, c, x1, x2;
+    double a, b, c; // Коэффициенты уравнения
+    double  x1, x2; // Возможные корни
     setlocale(LC_ALL, "");
     cout << "Программа вычисления корней уравнения ax^2+bx+c=0\n";
     cout << "Введите коэф. а: ";
