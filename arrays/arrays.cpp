@@ -9,7 +9,7 @@ int main()
 
     int c[10]{ 1,2,3 };
     char ch[5] { 'H','e','l','l','o' };
-    char ch1[] = "Hello";
+    char ch1[] = "Hello"; // "Hello" - const char*
     char symbol = ch1[3];
     for (int i = 0; i < 5; i++) 
         cout << ch[i];

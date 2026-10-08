@@ -33,6 +33,7 @@ int main()
     //products[0].name = "Киви";
     //products[0].price = 300.87;
     //products[0].count = 22.2;
+
     setlocale(LC_ALL, "");
     int size = sizeof(pr) / sizeof(Product);
     cout << "Введите предел цены: ";

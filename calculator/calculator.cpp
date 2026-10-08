@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "");
-    cout << "Программа - колькулятор.\n";
+    cout << "Программа - калькулятор.\n";
     double a, b, result;
     char operation;
     cout << "Введите через пробел первое число, знак операции, второе число:\n";
