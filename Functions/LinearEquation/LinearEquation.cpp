@@ -1,5 +1,9 @@
 ﻿#include <iostream>
 using namespace std;
+// bx+c=0
+// rootsCount = 0 - нет решений
+// rootsCount = 1 - 1 корень root
+// rootsCount = -1 - бесконечное кол-во корней
 void linearEquation(double b, double c,
     int& rootsCount, double& root)
 {
@@ -31,10 +35,10 @@ int main()
     double root;
     Data data[5]
     {
-        {0,0},
-        {-1,0},
+        {0,0}, //0х+0 = 1
+        {-1,0},//-1х+0 = 0
         {0,-1},
-        {4,7},
+        {4,7}, // 4х+7 = 0
         {12,-10},
     };
     for (int i = 0; i < 5; i++)
